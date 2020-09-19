@@ -54,6 +54,22 @@ Objects {
   ChildIds: 10883757058697850590
   ChildIds: 16381951966790113691
   ChildIds: 6438125948860681886
+  ChildIds: 11684339653436469903
+  ChildIds: 781464779876472604
+  ChildIds: 11769539768925563224
+  ChildIds: 4066494729121821503
+  ChildIds: 6662521341097776522
+  ChildIds: 1021683330907282513
+  ChildIds: 2905776536553713081
+  ChildIds: 5576507955638707418
+  ChildIds: 5438974810291713923
+  ChildIds: 11960655117953793789
+  ChildIds: 15180826857856782945
+  ChildIds: 10069758356355157550
+  ChildIds: 12106822119960182686
+  ChildIds: 3753498893294072473
+  ChildIds: 15460944714472603434
+  ChildIds: 5266550937020299068
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -63,6 +79,687 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 5266550937020299068
+  Name: "Rain Splash Volume VFX"
+  Transform {
+    Location {
+      X: -4000
+      Y: 2700
+      Z: -50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 55.5000038
+      Y: 20.75
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14030927042479968384
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+}
+Objects {
+  Id: 15460944714472603434
+  Name: "Rain Splash Volume VFX"
+  Transform {
+    Location {
+      X: -3700
+      Y: 2000
+      Z: -50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 27.25
+      Y: 31
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14030927042479968384
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+}
+Objects {
+  Id: 3753498893294072473
+  Name: "Rain Medium SFX"
+  Transform {
+    Location {
+      X: -3500
+      Y: 3400
+      Z: -50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 8143830673096917146
+    }
+    Volume: 1
+    Falloff: -1
+    Radius: -1
+    EnableOcclusion: true
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
+  }
+}
+Objects {
+  Id: 12106822119960182686
+  Name: "Rain Medium SFX"
+  Transform {
+    Location {
+      X: -4350
+      Y: -1550
+      Z: -50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 8143830673096917146
+    }
+    Volume: 1
+    Falloff: -1
+    Radius: -1
+    EnableOcclusion: true
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
+  }
+}
+Objects {
+  Id: 10069758356355157550
+  Name: "Rain Medium SFX"
+  Transform {
+    Location {
+      X: 3800
+      Y: 5650
+      Z: 100
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 8143830673096917146
+    }
+    Volume: 1
+    Falloff: -1
+    Radius: -1
+    EnableOcclusion: true
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
+  }
+}
+Objects {
+  Id: 15180826857856782945
+  Name: "Rain Medium SFX"
+  Transform {
+    Location {
+      X: 500
+      Y: -4400
+      Z: -50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 8143830673096917146
+    }
+    Volume: 1
+    Falloff: -1
+    Radius: -1
+    EnableOcclusion: true
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
+  }
+}
+Objects {
+  Id: 11960655117953793789
+  Name: "Rain Medium SFX"
+  Transform {
+    Location {
+      X: -4350
+      Y: 1700
+      Z: -50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 8143830673096917146
+    }
+    Volume: 1
+    Falloff: -1
+    Radius: -1
+    EnableOcclusion: true
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
+  }
+}
+Objects {
+  Id: 5438974810291713923
+  Name: "Rain Medium SFX"
+  Transform {
+    Location {
+      X: -3600
+      Y: -750
+      Z: -50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 10.75
+      Z: 7
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 8143830673096917146
+    }
+    Volume: 1
+    Falloff: -1
+    Radius: -1
+    EnableOcclusion: true
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
+  }
+}
+Objects {
+  Id: 5576507955638707418
+  Name: "Rain Splash Volume VFX"
+  Transform {
+    Location {
+      X: -3800
+      Y: 1650
+      Z: -50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 30.5000076
+      Y: 19
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14030927042479968384
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+}
+Objects {
+  Id: 2905776536553713081
+  Name: "Rain Splash Volume VFX"
+  Transform {
+    Location {
+      X: -4100
+      Y: 700
+      Z: -50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 37.2500038
+      Y: 42.75
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14030927042479968384
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+}
+Objects {
+  Id: 1021683330907282513
+  Name: "Rain Splash Volume VFX"
+  Transform {
+    Location {
+      X: -2950
+      Y: -150
+      Z: -50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 18.5
+      Y: 24.0000038
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14030927042479968384
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+}
+Objects {
+  Id: 6662521341097776522
+  Name: "Rain Splash Volume VFX"
+  Transform {
+    Location {
+      X: -2750
+      Y: -550
+      Z: -50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 15.000001
+      Y: 33.0000076
+      Z: 11.25
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14030927042479968384
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+}
+Objects {
+  Id: 4066494729121821503
+  Name: "Rain Splash Volume VFX"
+  Transform {
+    Location {
+      X: -2700
+      Y: 100
+      Z: -50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 5.75000238
+      Y: 20.5
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14030927042479968384
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+}
+Objects {
+  Id: 11769539768925563224
+  Name: "Rain Medium SFX"
+  Transform {
+    Location {
+      X: -2850
+      Y: 1000
+      Z: -50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 8143830673096917146
+    }
+    Volume: 1
+    Falloff: -1
+    Radius: -1
+    EnableOcclusion: true
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
+  }
+}
+Objects {
+  Id: 781464779876472604
+  Name: "Rain Volume VFX"
+  Transform {
+    Location {
+      X: -2650
+      Y: 600
+      Z: -50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 6.25
+      Y: 9.5
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2794624712506442034
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+}
+Objects {
+  Id: 11684339653436469903
+  Name: "Sky Overcast 01"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3795687685042435289
+      value {
+        Overrides {
+          Name: "bp:Light Color"
+          Color {
+            R: 1
+            G: 0.32
+            B: 0.779337645
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "bp:Intensity"
+          Float: 0.5
+        }
+        Overrides {
+          Name: "bp:Size"
+          Float: 3.8766706
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5259375991762797607
+      value {
+        Overrides {
+          Name: "bp:Cloud Wisp Color"
+          Color {
+            R: 0.43205303
+            G: 0.329999983
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -200
+            Y: -300
+            Z: 750
+          }
+        }
+        Overrides {
+          Name: "bp:Brightness"
+          Float: 0.359418333
+        }
+        Overrides {
+          Name: "bp:Overall Tint"
+          Color {
+            R: 0.371992141
+            G: 0.477134079
+            B: 0.604166687
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "bp:Cloud Color"
+          Color {
+            R: 0.186217651
+            G: 0.123643667
+            B: 0.276041657
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "bp:Cloud Lighting Brightness"
+          Float: 0.5
+        }
+        Overrides {
+          Name: "bp:Cloud Opacity"
+          Float: 1
+        }
+        Overrides {
+          Name: "bp:Cloud Wisp Speed"
+          Float: 0.739392698
+        }
+        Overrides {
+          Name: "bp:High Cloud Color"
+          Color {
+            R: 0.0577503815
+            G: 0.0586031601
+            B: 0.192708328
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "bp:High Cloud Opacity"
+          Float: 0.809353113
+        }
+        Overrides {
+          Name: "bp:High Cloud Brightness"
+          Float: 0.739392698
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7630610834896796816
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sky Overcast 01"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -900
+            Y: -1900
+            Z: -1850
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15975492017228948184
+      value {
+        Overrides {
+          Name: "bp:Tint Color"
+          Color {
+            R: 0.435468584
+            G: 0.291205496
+            B: 0.494791657
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "bp:Ambient Image"
+          Enum {
+            Value: "mc:eambientcubemapssmall:9"
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 244322585695004704
+    }
   }
 }
 Objects {
@@ -2728,9 +3425,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 0.75
+      Y: 0.75
+      Z: 0.75
     }
   }
   ParentId: 15911638130342547218
@@ -3491,7 +4188,7 @@ Objects {
   }
   Terrain {
     Material {
-      Id: 6288323627321324851
+      Id: 2506680319063479536
     }
     VoxelSize: 50
     OctreeDepth: 5
