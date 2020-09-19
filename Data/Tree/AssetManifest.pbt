@@ -89,6 +89,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9945728528270415797
+  Name: "Cone"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cone_001"
+  }
+}
+Assets {
   Id: 8971007613765797971
   Name: "Bark Oak 01"
   PlatformAssetType: 2
@@ -158,6 +167,15 @@ Assets {
   PrimaryAsset {
     AssetType: "VfxBlueprintAssetRef"
     AssetId: "fxbp_rain_volume_vfx"
+  }
+}
+Assets {
+  Id: 1577392771394842713
+  Name: "Teardrop - Truncated"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_truncated_teardrop_001"
   }
 }
 Assets {

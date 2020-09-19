@@ -1,7 +1,7 @@
 ﻿-- When a player hits the coin, increment a resource on the player and remove the coin
 function handleOverlap(trigger, object)
     if object ~= nil and object:IsA("Player") then
-        object:AddResource("raindrop", 1)
+        object:AddResource("Teardrop - Truncated", 1)
         trigger.isEnabled = false
     end
 end
