@@ -62,6 +62,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12678555376396055008
+  Name: "Icon Health"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_Health"
+  }
+}
+Assets {
   Id: 11515840070784317904
   Name: "Skylight"
   PlatformAssetType: 6
@@ -86,6 +95,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_bark_oak_001_uv"
+  }
+}
+Assets {
+  Id: 8335761895691466498
+  Name: "Rain Light SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_rain_light"
   }
 }
 Assets {
@@ -122,6 +140,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_rock_generic_005"
+  }
+}
+Assets {
+  Id: 2852865481950306526
+  Name: "Nature Thunder Clap Boom Set 01 SFX"
+  PlatformAssetType: 10
+  PrimaryAsset {
+    AssetType: "AudioBlueprintAssetRef"
+    AssetId: "sfxabp_thunder_ref"
   }
 }
 Assets {
