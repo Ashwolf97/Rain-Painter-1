@@ -91,6 +91,10 @@ Objects {
   ChildIds: 18139152441765165585
   ChildIds: 601377181497094832
   ChildIds: 12800962456548450799
+  ChildIds: 10081559404007580973
+  ChildIds: 3878625588729084516
+  ChildIds: 5465620907421809041
+  ChildIds: 13269959121263056536
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -100,6 +104,156 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 13269959121263056536
+  Name: "lightning"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 15203280449118404876
+      value {
+        Overrides {
+          Name: "Name"
+          String: "lightning"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -350
+            Y: -2500
+            Z: 650
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -32.6144714
+            Yaw: 121.043076
+            Roll: -76.5314
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.75
+            Y: 2.75
+            Z: 2.75
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9744181888656993856
+    }
+  }
+}
+Objects {
+  Id: 5465620907421809041
+  Name: "lil boy"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8322036145727026562
+      value {
+        Overrides {
+          Name: "Name"
+          String: "lil boy"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: -2100
+            Z: -700
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 2537690142835521022
+    }
+  }
+}
+Objects {
+  Id: 3878625588729084516
+  Name: "heart"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 938726526101617901
+      value {
+        Overrides {
+          Name: "Name"
+          String: "heart"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 850
+            Y: -3850
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9405089872013155237
+    }
+  }
+}
+Objects {
+  Id: 10081559404007580973
+  Name: "tumbleweed"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1332672647641490269
+      value {
+        Overrides {
+          Name: "Name"
+          String: "tumbleweed"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 350
+            Y: -3800
+            Z: 150
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4892265836798042802
+    }
   }
 }
 Objects {
