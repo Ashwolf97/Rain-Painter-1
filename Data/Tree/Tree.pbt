@@ -15,6 +15,7 @@ Objects {
     }
   }
   ChildIds: 10005074784157121906
+  ChildIds: 16250030611909287701
   ChildIds: 11684339653436469903
   ChildIds: 16813558807825262224
   ChildIds: 14713340454944924967
@@ -5888,6 +5889,35 @@ Objects {
   }
 }
 Objects {
+  Id: 16250030611909287701
+  Name: "Mist"
+  Transform {
+    Location {
+      X: 600
+      Y: -1000
+      Z: 1950
+    }
+    Rotation {
+    }
+    Scale {
+      X: 15.749999
+      Y: 10
+      Z: 12.5
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Mist"
+  }
+}
+Objects {
   Id: 10005074784157121906
   Name: "Default Sky"
   Transform {
@@ -5903,7 +5933,6 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  ChildIds: 16250030611909287701
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -5914,34 +5943,5 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-}
-Objects {
-  Id: 16250030611909287701
-  Name: "Mist"
-  Transform {
-    Location {
-      X: 600
-      Y: -1000
-      Z: 1250
-    }
-    Rotation {
-    }
-    Scale {
-      X: 15.749999
-      Y: 10
-      Z: 12.5
-    }
-  }
-  ParentId: 10005074784157121906
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Mist"
   }
 }
