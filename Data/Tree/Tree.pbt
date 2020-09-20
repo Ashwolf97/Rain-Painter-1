@@ -14,35 +14,10 @@ Objects {
       Z: 1
     }
   }
-  ChildIds: 7367735074338159388
+  ChildIds: 10005074784157121906
+  ChildIds: 11684339653436469903
   ChildIds: 16813558807825262224
   ChildIds: 14713340454944924967
-  ChildIds: 10005074784157121906
-  ChildIds: 16614953393663317112
-  ChildIds: 4311557690102053520
-  ChildIds: 15885953439862483370
-  ChildIds: 18316792711469675013
-  ChildIds: 12191533371257037545
-  ChildIds: 7557337690746494659
-  ChildIds: 6558339373748710320
-  ChildIds: 5153485801193565070
-  ChildIds: 815945871116570687
-  ChildIds: 14168929133697997535
-  ChildIds: 3294313689426669407
-  ChildIds: 4054487315950202370
-  ChildIds: 16818508223420341128
-  ChildIds: 17009924832508833462
-  ChildIds: 3564037262020090469
-  ChildIds: 15241133370929317591
-  ChildIds: 11008896710979067600
-  ChildIds: 15743467046626564320
-  ChildIds: 13018726988437435059
-  ChildIds: 3797757273874663413
-  ChildIds: 12627029618541104692
-  ChildIds: 3085468876814988711
-  ChildIds: 8725810786377840193
-  ChildIds: 14531006676431060037
-  ChildIds: 3581326741864869308
   ChildIds: 13299722267019044257
   ChildIds: 15911638130342547218
   ChildIds: 13918316311371946063
@@ -54,7 +29,6 @@ Objects {
   ChildIds: 10883757058697850590
   ChildIds: 16381951966790113691
   ChildIds: 6438125948860681886
-  ChildIds: 11684339653436469903
   ChildIds: 781464779876472604
   ChildIds: 11769539768925563224
   ChildIds: 4066494729121821503
@@ -96,6 +70,7 @@ Objects {
   ChildIds: 5465620907421809041
   ChildIds: 13269959121263056536
   ChildIds: 14956890174426686894
+  ChildIds: 3581326741864869308
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -105,6 +80,37 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 3581326741864869308
+  Name: "Terrain"
+  Transform {
+    Location {
+      Z: -50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Terrain {
+    Material {
+      Id: 2506680319063479536
+    }
+    VoxelSize: 50
+    OctreeDepth: 5
+    GeneratorID: "DEPRECATED"
   }
 }
 Objects {
@@ -2112,155 +2118,6 @@ Objects {
     }
     Vfx {
       AutoPlay: true
-    }
-  }
-}
-Objects {
-  Id: 11684339653436469903
-  Name: "Sky Overcast 01"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 3795687685042435289
-      value {
-        Overrides {
-          Name: "bp:Light Color"
-          Color {
-            R: 1
-            G: 0.32
-            B: 0.779337645
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "bp:Intensity"
-          Float: 0.5
-        }
-        Overrides {
-          Name: "bp:Size"
-          Float: 3.8766706
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 5259375991762797607
-      value {
-        Overrides {
-          Name: "bp:Cloud Wisp Color"
-          Color {
-            R: 0.43205303
-            G: 0.329999983
-            B: 1
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -200
-            Y: -300
-            Z: 750
-          }
-        }
-        Overrides {
-          Name: "bp:Brightness"
-          Float: 0.359418333
-        }
-        Overrides {
-          Name: "bp:Overall Tint"
-          Color {
-            R: 0.371992141
-            G: 0.477134079
-            B: 0.604166687
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "bp:Cloud Color"
-          Color {
-            R: 0.186217651
-            G: 0.123643667
-            B: 0.276041657
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "bp:Cloud Lighting Brightness"
-          Float: 0.5
-        }
-        Overrides {
-          Name: "bp:Cloud Opacity"
-          Float: 1
-        }
-        Overrides {
-          Name: "bp:Cloud Wisp Speed"
-          Float: 0.739392698
-        }
-        Overrides {
-          Name: "bp:High Cloud Color"
-          Color {
-            R: 0.0577503815
-            G: 0.0586031601
-            B: 0.192708328
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "bp:High Cloud Opacity"
-          Float: 0.809353113
-        }
-        Overrides {
-          Name: "bp:High Cloud Brightness"
-          Float: 0.739392698
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 7630610834896796816
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Sky Overcast 01"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -900
-            Y: -1900
-            Z: -1850
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 15975492017228948184
-      value {
-        Overrides {
-          Name: "bp:Tint Color"
-          Color {
-            R: 0.435468584
-            G: 0.291205496
-            B: 0.494791657
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "bp:Ambient Image"
-          Enum {
-            Value: "mc:eambientcubemapssmall:9"
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 244322585695004704
     }
   }
 }
@@ -5667,1640 +5524,6 @@ Objects {
   }
 }
 Objects {
-  Id: 3581326741864869308
-  Name: "Terrain"
-  Transform {
-    Location {
-      Z: -50
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Terrain {
-    Material {
-      Id: 2506680319063479536
-    }
-    VoxelSize: 50
-    OctreeDepth: 5
-    GeneratorID: "DEPRECATED"
-  }
-}
-Objects {
-  Id: 14531006676431060037
-  Name: "Smoke Puff Radial VFX"
-  Transform {
-    Location {
-      X: -800
-      Y: -300
-      Z: 1100
-    }
-    Rotation {
-    }
-    Scale {
-      X: 15.75
-      Y: 10
-      Z: 12.5
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Burst"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:color"
-      Color {
-        R: 0.55
-        G: 0.821191907
-        B: 1
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 1283691431651859504
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-}
-Objects {
-  Id: 8725810786377840193
-  Name: "Smoke Puff Radial VFX"
-  Transform {
-    Location {
-      X: 1350
-      Y: 450
-      Z: 150
-    }
-    Rotation {
-    }
-    Scale {
-      X: 15.75
-      Y: 10
-      Z: 12.5
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Burst"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:color"
-      Color {
-        G: 0.0781874284
-        B: 0.479320228
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 1283691431651859504
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-}
-Objects {
-  Id: 3085468876814988711
-  Name: "Smoke Puff Radial VFX"
-  Transform {
-    Location {
-      X: -1100
-      Y: 450
-      Z: 150
-    }
-    Rotation {
-    }
-    Scale {
-      X: 15.75
-      Y: 10
-      Z: 12.5
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Burst"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:color"
-      Color {
-        G: 0.0781874284
-        B: 0.479320228
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 1283691431651859504
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-}
-Objects {
-  Id: 12627029618541104692
-  Name: "Smoke Puff Radial VFX"
-  Transform {
-    Location {
-      X: 200
-      Y: -1200
-    }
-    Rotation {
-    }
-    Scale {
-      X: 15.75
-      Y: 10
-      Z: 12.5
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Burst"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:color"
-      Color {
-        G: 0.0781874284
-        B: 0.479320228
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 1283691431651859504
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-}
-Objects {
-  Id: 3797757273874663413
-  Name: "Smoke Puff Radial VFX"
-  Transform {
-    Location {
-      X: 250
-      Y: -150
-      Z: 1600
-    }
-    Rotation {
-    }
-    Scale {
-      X: 15.75
-      Y: 10
-      Z: 12.5
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Burst"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:color"
-      Color {
-        R: 0.55
-        G: 0.821191907
-        B: 1
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 1283691431651859504
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-}
-Objects {
-  Id: 13018726988437435059
-  Name: "Smoke Puff Radial VFX"
-  Transform {
-    Location {
-      X: 250
-      Y: 1250
-      Z: 1600
-    }
-    Rotation {
-    }
-    Scale {
-      X: 15.75
-      Y: 10
-      Z: 12.5
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Burst"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:color"
-      Color {
-        R: 0.55
-        G: 0.821191907
-        B: 1
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 1283691431651859504
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-}
-Objects {
-  Id: 15743467046626564320
-  Name: "Smoke Puff Radial VFX"
-  Transform {
-    Location {
-      X: 1350
-      Y: 1250
-      Z: 2050
-    }
-    Rotation {
-    }
-    Scale {
-      X: 15.75
-      Y: 10
-      Z: 12.5
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Burst"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:color"
-      Color {
-        R: 0.55
-        G: 0.821191907
-        B: 1
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 1283691431651859504
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-}
-Objects {
-  Id: 11008896710979067600
-  Name: "Smoke Puff Radial VFX"
-  Transform {
-    Location {
-      X: 500
-      Y: -1000
-      Z: 1600
-    }
-    Rotation {
-    }
-    Scale {
-      X: 15.75
-      Y: 10
-      Z: 12.5
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Burst"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:color"
-      Color {
-        R: 0.55
-        G: 0.821191907
-        B: 1
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 1283691431651859504
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-}
-Objects {
-  Id: 15241133370929317591
-  Name: "Smoke Puff Radial VFX"
-  Transform {
-    Location {
-      X: -550.000122
-      Y: 1350
-      Z: 1900
-    }
-    Rotation {
-    }
-    Scale {
-      X: 15.75
-      Y: 10
-      Z: 12.5
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Burst"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:color"
-      Color {
-        R: 0.55
-        G: 0.821191907
-        B: 1
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 1283691431651859504
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-}
-Objects {
-  Id: 3564037262020090469
-  Name: "Smoke Puff Radial VFX"
-  Transform {
-    Location {
-      X: -750
-      Y: -800
-      Z: 2000
-    }
-    Rotation {
-    }
-    Scale {
-      X: 15.75
-      Y: 10
-      Z: 12.5
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Burst"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:color"
-      Color {
-        R: 0.55
-        G: 0.821191907
-        B: 1
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 1283691431651859504
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-}
-Objects {
-  Id: 17009924832508833462
-  Name: "Smoke Puff Radial VFX"
-  Transform {
-    Location {
-      X: -1000
-      Y: -650
-      Z: 1000
-    }
-    Rotation {
-    }
-    Scale {
-      X: 15.75
-      Y: 10
-      Z: 12.5
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Burst"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:color"
-      Color {
-        R: 0.55
-        G: 0.821191907
-        B: 1
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 1283691431651859504
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-}
-Objects {
-  Id: 16818508223420341128
-  Name: "Smoke Puff Radial VFX"
-  Transform {
-    Location {
-      X: 200
-      Y: 1900
-    }
-    Rotation {
-    }
-    Scale {
-      X: 15.75
-      Y: 10
-      Z: 12.5
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Burst"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:color"
-      Color {
-        G: 0.0781874284
-        B: 0.479320228
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 1283691431651859504
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-}
-Objects {
-  Id: 4054487315950202370
-  Name: "Smoke Puff Radial VFX"
-  Transform {
-    Location {
-      X: 750
-      Y: -700
-      Z: -150
-    }
-    Rotation {
-    }
-    Scale {
-      X: 15.75
-      Y: 10
-      Z: 12.5
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Burst"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:color"
-      Color {
-        G: 0.0781874284
-        B: 0.479320228
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 1283691431651859504
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-}
-Objects {
-  Id: 3294313689426669407
-  Name: "Smoke Puff Radial VFX"
-  Transform {
-    Location {
-      X: 1200
-      Y: 450
-      Z: 1250
-    }
-    Rotation {
-    }
-    Scale {
-      X: 15.75
-      Y: 10
-      Z: 12.5
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Burst"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:color"
-      Color {
-        R: 0.55
-        G: 0.821191907
-        B: 1
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 1283691431651859504
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-}
-Objects {
-  Id: 14168929133697997535
-  Name: "Smoke Puff Radial VFX"
-  Transform {
-    Location {
-      X: 450
-      Y: 2250
-      Z: 1600
-    }
-    Rotation {
-    }
-    Scale {
-      X: 15.75
-      Y: 10
-      Z: 12.5
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Burst"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:color"
-      Color {
-        R: 0.55
-        G: 0.821191907
-        B: 1
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 1283691431651859504
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-}
-Objects {
-  Id: 815945871116570687
-  Name: "Swirling Dust VFX"
-  Transform {
-    Location {
-      X: -250
-      Y: 900
-      Z: 600
-    }
-    Rotation {
-    }
-    Scale {
-      X: -9
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Debris Density"
-      Float: 0.1
-    }
-    Overrides {
-      Name: "bp:Debris Scale Multiplier"
-      Float: 0.1
-    }
-    Overrides {
-      Name: "bp:color"
-      Color {
-        G: 0.282383919
-        B: 0.820000052
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Debris Color"
-      Color {
-        G: 0.266355664
-        B: 0.552011609
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 15161020496069638493
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-}
-Objects {
-  Id: 5153485801193565070
-  Name: "Swirling Dust VFX"
-  Transform {
-    Location {
-      X: -200
-      Y: -450
-      Z: 650
-    }
-    Rotation {
-    }
-    Scale {
-      X: -9
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Debris Density"
-      Float: 0.1
-    }
-    Overrides {
-      Name: "bp:Debris Scale Multiplier"
-      Float: 0.1
-    }
-    Overrides {
-      Name: "bp:color"
-      Color {
-        G: 0.282383919
-        B: 0.820000052
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Debris Color"
-      Color {
-        G: 0.266355664
-        B: 0.552011609
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 15161020496069638493
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-}
-Objects {
-  Id: 6558339373748710320
-  Name: "Swirling Dust VFX"
-  Transform {
-    Location {
-      X: 400
-      Y: -100
-      Z: 750
-    }
-    Rotation {
-    }
-    Scale {
-      X: -9
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Debris Density"
-      Float: 0.1
-    }
-    Overrides {
-      Name: "bp:Debris Scale Multiplier"
-      Float: 0.1
-    }
-    Overrides {
-      Name: "bp:color"
-      Color {
-        G: 0.282383919
-        B: 0.820000052
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Debris Color"
-      Color {
-        G: 0.266355664
-        B: 0.552011609
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 15161020496069638493
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-}
-Objects {
-  Id: 7557337690746494659
-  Name: "Swirling Dust VFX"
-  Transform {
-    Location {
-      X: 150
-      Y: 750
-      Z: 700
-    }
-    Rotation {
-    }
-    Scale {
-      X: -9
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Debris Density"
-      Float: 0.1
-    }
-    Overrides {
-      Name: "bp:Debris Scale Multiplier"
-      Float: 0.1
-    }
-    Overrides {
-      Name: "bp:color"
-      Color {
-        G: 0.282383919
-        B: 0.820000052
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Debris Color"
-      Color {
-        G: 0.266355664
-        B: 0.552011609
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 15161020496069638493
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-}
-Objects {
-  Id: 12191533371257037545
-  Name: "Swirling Dust VFX"
-  Transform {
-    Location {
-      X: 700
-      Y: 2250
-      Z: -300
-    }
-    Rotation {
-    }
-    Scale {
-      X: -9
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Debris Density"
-      Float: 0.1
-    }
-    Overrides {
-      Name: "bp:Debris Scale Multiplier"
-      Float: 0.1
-    }
-    Overrides {
-      Name: "bp:color"
-      Color {
-        G: 0.0781874284
-        B: 0.479320228
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Debris Color"
-      Color {
-        G: 0.266355664
-        B: 0.552011609
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 15161020496069638493
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-}
-Objects {
-  Id: 18316792711469675013
-  Name: "Swirling Dust VFX"
-  Transform {
-    Location {
-      X: -1.27575e+06
-      Y: 1650
-      Z: -200
-    }
-    Rotation {
-    }
-    Scale {
-      X: -9
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Debris Density"
-      Float: 0.1
-    }
-    Overrides {
-      Name: "bp:Debris Scale Multiplier"
-      Float: 0.1
-    }
-    Overrides {
-      Name: "bp:color"
-      Color {
-        G: 0.0781874284
-        B: 0.479320228
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Debris Color"
-      Color {
-        G: 0.266355664
-        B: 0.552011609
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 15161020496069638493
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-}
-Objects {
-  Id: 15885953439862483370
-  Name: "Swirling Dust VFX"
-  Transform {
-    Location {
-      X: 218700
-      Y: 1650
-      Z: -200
-    }
-    Rotation {
-    }
-    Scale {
-      X: -9
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Debris Density"
-      Float: 0.1
-    }
-    Overrides {
-      Name: "bp:Debris Scale Multiplier"
-      Float: 0.1
-    }
-    Overrides {
-      Name: "bp:color"
-      Color {
-        G: 0.0781874284
-        B: 0.479320228
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Debris Color"
-      Color {
-        G: 0.266355664
-        B: 0.552011609
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 15161020496069638493
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-}
-Objects {
-  Id: 4311557690102053520
-  Name: "Swirling Dust VFX"
-  Transform {
-    Location {
-      Y: 1650
-      Z: -200
-    }
-    Rotation {
-    }
-    Scale {
-      X: -9
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Debris Density"
-      Float: 0.1
-    }
-    Overrides {
-      Name: "bp:Debris Scale Multiplier"
-      Float: 0.1
-    }
-    Overrides {
-      Name: "bp:color"
-      Color {
-        G: 0.0781874284
-        B: 0.479320228
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Debris Color"
-      Color {
-        G: 0.266355664
-        B: 0.552011609
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 15161020496069638493
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-}
-Objects {
-  Id: 16614953393663317112
-  Name: "Smoke Puff Radial VFX"
-  Transform {
-    Location {
-      X: 600
-      Y: -1000
-      Z: 1950
-    }
-    Rotation {
-    }
-    Scale {
-      X: 15.75
-      Y: 10
-      Z: 12.5
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Burst"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:color"
-      Color {
-        R: 0.55
-        G: 0.821191907
-        B: 1
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 1283691431651859504
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-}
-Objects {
-  Id: 10005074784157121906
-  Name: "Default Sky"
-  Transform {
-    Location {
-      Z: 700
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  ChildIds: 13551641546322277000
-  ChildIds: 7155168770677928712
-  ChildIds: 10505154200474359396
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 10505154200474359396
-  Name: "Sun Light"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Pitch: -45.8452454
-      Yaw: 33.9371338
-      Roll: 8.92731857
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10005074784157121906
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Use Temperature"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Light Color"
-      Color {
-        R: 1
-        G: 0.955973327
-        B: 0.73791039
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Shape"
-      Int: 1
-    }
-    Overrides {
-      Name: "bp:Size"
-      Float: 5
-    }
-    Overrides {
-      Name: "bp:Light Shaft Bloom"
-      Bool: true
-    }
-    Overrides {
-      Name: "bp:Cast Volumetric Shadows"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Light Shaft Mask Darkness"
-      Float: 0.5
-    }
-    Overrides {
-      Name: "bp:Intensity"
-      Float: 3.5
-    }
-    Overrides {
-      Name: "bp:Sun Disc Color"
-      Color {
-        R: 3
-        G: 3
-        B: 3
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Light Shaft Bloom Scale"
-      Float: 0.2
-    }
-    Overrides {
-      Name: "bp:Light Shaft Bloom Threshold"
-      Float: 0.05
-    }
-    Overrides {
-      Name: "bp:Light Shaft Occlusion"
-      Bool: true
-    }
-    Overrides {
-      Name: "bp:Light Shaft Bloom Tint"
-      Color {
-        R: 1
-        G: 0.998476863
-        B: 0.77
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 16910278292812118833
-    }
-  }
-}
-Objects {
-  Id: 7155168770677928712
-  Name: "Skylight"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10005074784157121906
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Index"
-      Int: 3
-    }
-    Overrides {
-      Name: "bp:Occlusion Contrast"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Intensity"
-      Float: 3
-    }
-    Overrides {
-      Name: "bp:Lower Hemisphere Color"
-      Color {
-        R: 0.0666259378
-        G: 0.0307134502
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Occlusion Tint"
-      Color {
-        R: 0.0274509825
-        G: 0.0274509825
-        B: 0.0392156877
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Occlusion Exponent"
-      Float: 0.4
-    }
-    Overrides {
-      Name: "bp:Cast Shadows"
-      Bool: true
-    }
-    Overrides {
-      Name: "bp:Cast Volumetric Shadows"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Tint Color"
-      Color {
-        R: 0.502886474
-        G: 0.48514995
-        B: 0.752942204
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 11515840070784317904
-    }
-  }
-}
-Objects {
-  Id: 13551641546322277000
-  Name: "Sky Dome"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10005074784157121906
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Zenith Color"
-      Color {
-        R: 0.0243181027
-        G: 0.0633459464
-        B: 0.212230757
-        A: 0.886000037
-      }
-    }
-    Overrides {
-      Name: "bp:Horizon Color"
-      Color {
-        R: 0.489468127
-        G: 0.480969489
-        B: 0.623960376
-        A: 0.895000041
-      }
-    }
-    Overrides {
-      Name: "bp:Haze Color"
-      Color {
-        R: 0.590618849
-        G: 0.590618849
-        B: 0.701101899
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Use Sun Color for Cloud Color"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Cloud Ambient Brightness"
-      Float: 3
-    }
-    Overrides {
-      Name: "bp:Cloud Rim Brightness"
-      Float: 50
-    }
-    Overrides {
-      Name: "bp:Cloud Opacity"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Cloud Ambient Color"
-      Color {
-        R: 2
-        G: 2
-        B: 2
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Cloud Color"
-      Color {
-        R: 2
-        G: 2
-        B: 2
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Cloud Shape"
-      Int: 4
-    }
-    Overrides {
-      Name: "bp:Cloud Lighting Brightness"
-      Float: 1
-    }
-    Overrides {
-      Name: "bp:Cloud Wisp Opacity"
-      Float: 0.4
-    }
-    Overrides {
-      Name: "bp:Cloud Speed"
-      Float: 1
-    }
-    Overrides {
-      Name: "bp:Brightness"
-      Float: 1
-    }
-    Overrides {
-      Name: "bp:Background Clouds"
-      Bool: true
-    }
-    Overrides {
-      Name: "bp:High Cloud Index"
-      Int: 2
-    }
-    Overrides {
-      Name: "bp:High Cloud Opacity"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:High Cloud Noise Amount"
-      Float: 0.1
-    }
-    Overrides {
-      Name: "bp:High Cloud Noise Scale"
-      Float: 0.2
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 7887238662729938253
-    }
-  }
-}
-Objects {
   Id: 14713340454944924967
   Name: "Third Person Camera Settings"
   Transform {
@@ -7500,10 +5723,176 @@ Objects {
   }
 }
 Objects {
-  Id: 7367735074338159388
-  Name: "Game Settings"
+  Id: 11684339653436469903
+  Name: "Sky Overcast 01"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3795687685042435289
+      value {
+        Overrides {
+          Name: "bp:Light Color"
+          Color {
+            R: 1
+            G: 0.32
+            B: 0.779337645
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "bp:Intensity"
+          Float: 0.5
+        }
+        Overrides {
+          Name: "bp:Size"
+          Float: 3.8766706
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5259375991762797607
+      value {
+        Overrides {
+          Name: "bp:Cloud Wisp Color"
+          Color {
+            R: 0.43205303
+            G: 0.329999983
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -200
+            Y: -300
+            Z: 750
+          }
+        }
+        Overrides {
+          Name: "bp:Brightness"
+          Float: 0.359418333
+        }
+        Overrides {
+          Name: "bp:Overall Tint"
+          Color {
+            R: 0.371992141
+            G: 0.477134079
+            B: 0.604166687
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "bp:Cloud Color"
+          Color {
+            R: 0.186217651
+            G: 0.123643667
+            B: 0.276041657
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "bp:Cloud Lighting Brightness"
+          Float: 0.5
+        }
+        Overrides {
+          Name: "bp:Cloud Opacity"
+          Float: 1
+        }
+        Overrides {
+          Name: "bp:Cloud Wisp Speed"
+          Float: 0.739392698
+        }
+        Overrides {
+          Name: "bp:High Cloud Color"
+          Color {
+            R: 0.0577503815
+            G: 0.0586031601
+            B: 0.192708328
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "bp:High Cloud Opacity"
+          Float: 0.809353113
+        }
+        Overrides {
+          Name: "bp:High Cloud Brightness"
+          Float: 0.739392698
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7630610834896796816
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sky Overcast 01"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -900.000122
+            Y: -1899.99988
+            Z: -1850
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -2.04905664e-05
+            Yaw: 1.02452859e-05
+            Roll: -3.41509644e-06
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15975492017228948184
+      value {
+        Overrides {
+          Name: "bp:Tint Color"
+          Color {
+            R: 0.435468584
+            G: 0.291205496
+            B: 0.494791657
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "bp:Ambient Image"
+          Enum {
+            Value: "mc:eambientcubemapssmall:9"
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 244322585695004704
+    }
+  }
+}
+Objects {
+  Id: 10005074784157121906
+  Name: "Default Sky"
   Transform {
     Location {
+      Z: 700
     }
     Rotation {
     }
@@ -7514,19 +5903,145 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  ChildIds: 10505154200474359396
+  ChildIds: 16250030611909287701
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  Settings {
-    IsDefault: true
-    GameSettings {
-      RagdollOnDeath: true
-      ChatMode {
-        Value: "mc:echatmode:teamandall"
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 16250030611909287701
+  Name: "Mist"
+  Transform {
+    Location {
+      X: 600
+      Y: -1000
+      Z: 1250
+    }
+    Rotation {
+    }
+    Scale {
+      X: 15.749999
+      Y: 10
+      Z: 12.5
+    }
+  }
+  ParentId: 10005074784157121906
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Mist"
+  }
+}
+Objects {
+  Id: 10505154200474359396
+  Name: "Sun Light"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Pitch: -45.8452454
+      Yaw: 33.9371338
+      Roll: 8.92731857
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10005074784157121906
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Use Temperature"
+      Bool: false
+    }
+    Overrides {
+      Name: "bp:Light Color"
+      Color {
+        R: 1
+        G: 0.955973327
+        B: 0.73791039
+        A: 1
       }
+    }
+    Overrides {
+      Name: "bp:Shape"
+      Int: 1
+    }
+    Overrides {
+      Name: "bp:Size"
+      Float: 5
+    }
+    Overrides {
+      Name: "bp:Light Shaft Bloom"
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:Cast Volumetric Shadows"
+      Bool: false
+    }
+    Overrides {
+      Name: "bp:Light Shaft Mask Darkness"
+      Float: 0.5
+    }
+    Overrides {
+      Name: "bp:Intensity"
+      Float: 3.5
+    }
+    Overrides {
+      Name: "bp:Sun Disc Color"
+      Color {
+        R: 3
+        G: 3
+        B: 3
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Light Shaft Bloom Scale"
+      Float: 0.2
+    }
+    Overrides {
+      Name: "bp:Light Shaft Bloom Threshold"
+      Float: 0.05
+    }
+    Overrides {
+      Name: "bp:Light Shaft Occlusion"
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:Light Shaft Bloom Tint"
+      Color {
+        R: 1
+        G: 0.998476863
+        B: 0.77
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 16910278292812118833
     }
   }
 }

@@ -35,15 +35,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15161020496069638493
-  Name: "Swirling Dust VFX"
-  PlatformAssetType: 8
-  PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_swirling_dust"
-  }
-}
-Assets {
   Id: 14916840639467030589
   Name: "Bush 02"
   PlatformAssetType: 1
@@ -68,15 +59,6 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "Icon_Health"
-  }
-}
-Assets {
-  Id: 11515840070784317904
-  Name: "Skylight"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_Skylight"
   }
 }
 Assets {
@@ -125,15 +107,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7887238662729938253
-  Name: "Sky Dome"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_Sky"
-  }
-}
-Assets {
   Id: 7100994984040296030
   Name: "Rock 03"
   PlatformAssetType: 1
@@ -176,15 +149,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_truncated_teardrop_001"
-  }
-}
-Assets {
-  Id: 1283691431651859504
-  Name: "Smoke Puff Radial VFX"
-  PlatformAssetType: 8
-  PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_smoke_puff_radial"
   }
 }
 Assets {
