@@ -89,13 +89,18 @@ Objects {
   ChildIds: 4807511156311535873
   ChildIds: 11588655673613463871
   ChildIds: 18139152441765165585
-  ChildIds: 601377181497094832
   ChildIds: 12800962456548450799
   ChildIds: 10081559404007580973
   ChildIds: 3878625588729084516
   ChildIds: 5465620907421809041
   ChildIds: 13269959121263056536
-  ChildIds: 14956890174426686894
+  ChildIds: 4877857699506284170
+  ChildIds: 8697542281276519812
+  ChildIds: 4947780294737002740
+  ChildIds: 16399080255312880370
+  ChildIds: 15692004213532917577
+  ChildIds: 14261043022132859561
+  ChildIds: 4633367872462576586
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -108,107 +113,32 @@ Objects {
   }
 }
 Objects {
-  Id: 14956890174426686894
-  Name: "raindrop"
+  Id: 4633367872462576586
+  Name: "Fantasy Castle Stairs Spiral 04 - Large 3m"
   Transform {
     Location {
-      Y: -3600
+      X: 1900
+      Y: -950
+      Z: -900
     }
     Rotation {
+      Yaw: -24.9998169
     }
     Scale {
-      X: 0.0743593499
-      Y: 0.0743593499
-      Z: 0.0743593499
+      X: 1
+      Y: 1
+      Z: 2
     }
   }
   ParentId: 4781671109827199097
-  ChildIds: 174349811679639740
-  ChildIds: 8523249852062890017
-  ChildIds: 11466776898534493635
-  WantsNetworking: true
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 14956890174426686894
-    SubobjectId: 14063098934630088044
-    InstanceId: 16786983726507337126
-    TemplateId: 13533927088362824179
-    WasRoot: true
-  }
-}
-Objects {
-  Id: 11466776898534493635
-  Name: "Group"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.955222249
-      Y: 0.955222249
-      Z: 0.955222249
-    }
-  }
-  ParentId: 14956890174426686894
-  ChildIds: 4419306596088870612
-  ChildIds: 7458802275308282863
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 11466776898534493635
-    SubobjectId: 10635683122080552193
-    InstanceId: 16786983726507337126
-    TemplateId: 13533927088362824179
-  }
-}
-Objects {
-  Id: 7458802275308282863
-  Name: "Cone - Hollow"
-  Transform {
-    Location {
-      Z: 4000
-    }
-    Rotation {
-    }
-    Scale {
-      X: 13.9996386
-      Y: 13.9996386
-      Z: 20.4994793
-    }
-  }
-  ParentId: 11466776898534493635
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 11551337349316794880
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.160000026
-        G: 0.449271321
-        B: 1
-        A: 1
+        Id: 2506680319063479536
       }
     }
   }
-  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -217,7 +147,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 9945728528270415797
+      Id: 10409765367908163674
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -229,46 +159,26 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 7458802275308282863
-    SubobjectId: 7726303943807433517
-    InstanceId: 16786983726507337126
-    TemplateId: 13533927088362824179
-  }
 }
 Objects {
-  Id: 4419306596088870612
-  Name: "Teardrop - Truncated"
+  Id: 14261043022132859561
+  Name: "Bench Tile Center"
   Transform {
     Location {
+      X: -550
+      Y: -2300
+      Z: -650
     }
     Rotation {
+      Pitch: -10
     }
     Scale {
-      X: 27.4993076
-      Y: 27.4993076
-      Z: 26.9993
+      X: 2
+      Y: 2
+      Z: 2.5
     }
   }
-  ParentId: 11466776898534493635
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 11551337349316794880
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.160000026
-        G: 0.449271321
-        B: 1
-        A: 1
-      }
-    }
-  }
-  WantsNetworking: true
+  ParentId: 4781671109827199097
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -277,7 +187,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 1577392771394842713
+      Id: 7548321593824650518
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -289,47 +199,26 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 4419306596088870612
-    SubobjectId: 3598132327133064726
-    InstanceId: 16786983726507337126
-    TemplateId: 13533927088362824179
-  }
 }
 Objects {
-  Id: 8523249852062890017
-  Name: "Cone - Hollow"
+  Id: 15692004213532917577
+  Name: "Bench Tile Center"
   Transform {
     Location {
-      Z: 4000
+      X: 450
+      Y: -1950
+      Z: -1150
     }
     Rotation {
+      Pitch: 20.0000019
     }
     Scale {
-      X: 14.0000019
-      Y: 14.0000019
-      Z: 20.5000114
+      X: 2
+      Y: 2
+      Z: 2.5
     }
   }
-  ParentId: 14956890174426686894
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 5887033829102365331
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-    }
-  }
-  WantsNetworking: true
+  ParentId: 4781671109827199097
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -338,7 +227,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 9945728528270415797
+      Id: 7548321593824650518
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -350,46 +239,26 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 8523249852062890017
-    SubobjectId: 8859441607929012451
-    InstanceId: 16786983726507337126
-    TemplateId: 13533927088362824179
-  }
 }
 Objects {
-  Id: 174349811679639740
-  Name: "Teardrop - Truncated"
+  Id: 16399080255312880370
+  Name: "Bench Tile Center"
   Transform {
     Location {
+      X: 450
+      Y: -2100
+      Z: -1000
     }
     Rotation {
+      Pitch: 20.0000019
     }
     Scale {
-      X: 27.5000191
-      Y: 27.5000191
-      Z: 27.0000019
+      X: 2
+      Y: 2
+      Z: 2.5
     }
   }
-  ParentId: 14956890174426686894
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 5887033829102365331
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-    }
-  }
-  WantsNetworking: true
+  ParentId: 4781671109827199097
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -398,7 +267,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 1577392771394842713
+      Id: 7548321593824650518
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -410,11 +279,124 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 174349811679639740
-    SubobjectId: 1067581381533851774
-    InstanceId: 16786983726507337126
-    TemplateId: 13533927088362824179
+}
+Objects {
+  Id: 4947780294737002740
+  Name: "Bench Tile Center"
+  Transform {
+    Location {
+      X: -100
+      Y: -2250
+      Z: -700
+    }
+    Rotation {
+      Pitch: -10
+    }
+    Scale {
+      X: 2
+      Y: 2
+      Z: 2.5
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7548321593824650518
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 8697542281276519812
+  Name: "Bench Tile Center"
+  Transform {
+    Location {
+      X: -550
+      Y: -2550
+      Z: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2
+      Y: 2
+      Z: 2.5
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7548321593824650518
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 4877857699506284170
+  Name: "Bench Tile Center"
+  Transform {
+    Location {
+      X: -1100
+      Y: -2650
+      Z: -50
+    }
+    Rotation {
+      Pitch: -34.999939
+    }
+    Scale {
+      X: 2
+      Y: 2
+      Z: 2.5
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7548321593824650518
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
   }
 }
 Objects {
@@ -669,109 +651,6 @@ Objects {
   }
 }
 Objects {
-  Id: 601377181497094832
-  Name: "UI Container"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  ChildIds: 13454647969048224252
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Canvas {
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 13454647969048224252
-  Name: "UI Text Box"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 601377181497094832
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 200
-    Height: 70
-    UIX: 1470.33472
-    UIY: 20.6236744
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Text {
-      Label: "Health"
-      Color {
-        R: 0.93
-        G: 0.991655588
-        B: 1
-        A: 1
-      }
-      Size: 40
-      Justification {
-        Value: "mc:etextjustify:left"
-      }
-      AutoWrapText: true
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-    }
-  }
-}
-Objects {
   Id: 18139152441765165585
   Name: "UI Container"
   Transform {
@@ -788,6 +667,7 @@ Objects {
   ParentId: 4781671109827199097
   ChildIds: 9846569692856382259
   ChildIds: 12210155792411791953
+  ChildIds: 6670550138224625579
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -801,6 +681,63 @@ Objects {
       }
     }
     Canvas {
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 6670550138224625579
+  Name: "Health 1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18139152441765165585
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 100
+    Height: 100
+    UIX: 1300
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 12678555376396055008
+      }
+      Color {
+        R: 0.269999981
+        G: 0.593907297
+        B: 1
+        A: 1
+      }
+      TeamSettings {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -840,7 +777,7 @@ Objects {
   Control {
     Width: 100
     Height: 100
-    UIX: 1750
+    UIX: 1200
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -897,7 +834,7 @@ Objects {
   Control {
     Width: 100
     Height: 100
-    UIX: 1650
+    UIX: 1400
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1286,6 +1223,16 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:color"
+      Color {
+        G: 0.153973237
+        B: 0.929999948
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2234,7 +2181,15 @@ Objects {
           Vector {
             X: -900
             Y: -1900
-            Z: -1850
+            Z: 650
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.75
+            Y: 2.75
+            Z: 2.75
           }
         }
       }
@@ -2418,8 +2373,8 @@ Objects {
   Control {
     Width: 1000
     Height: 60
-    UIX: 1550
-    UIY: 50
+    UIX: 500
+    UIY: 500
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -7475,8 +7430,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
+      X: -550
       Y: -3150
-      Z: 50
+      Z: 250
     }
     Rotation {
     }

@@ -89,12 +89,12 @@ Assets {
   }
 }
 Assets {
-  Id: 9945728528270415797
-  Name: "Cone"
+  Id: 10409765367908163674
+  Name: "Fantasy Castle Stairs Spiral 04 - Large 3m"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cone_001"
+    AssetId: "sm_ts_fan_cas_stairs_spiral_004_lg_3m"
   }
 }
 Assets {
@@ -134,6 +134,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7548321593824650518
+  Name: "Bench Tile Center"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bench_center_001"
+  }
+}
+Assets {
   Id: 7100994984040296030
   Name: "Rock 03"
   PlatformAssetType: 1
@@ -167,15 +176,6 @@ Assets {
   PrimaryAsset {
     AssetType: "VfxBlueprintAssetRef"
     AssetId: "fxbp_rain_volume_vfx"
-  }
-}
-Assets {
-  Id: 1577392771394842713
-  Name: "Teardrop - Truncated"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_truncated_teardrop_001"
   }
 }
 Assets {

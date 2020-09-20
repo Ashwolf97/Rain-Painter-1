@@ -2,7 +2,6 @@
 function handleOverlap(trigger, object)
     if object ~= nil and object:IsA("Player") then
         object:AddResource("Teardrop - Truncated", 1)
-        object:AddResource("Cone - Hollow", 1)
         trigger.isEnabled = false
     end
 end
