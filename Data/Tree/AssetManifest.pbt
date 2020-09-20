@@ -1,13 +1,4 @@
 ﻿Assets {
-  Id: 16910278292812118833
-  Name: "Sun Light"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_SunLight"
-  }
-}
-Assets {
   Id: 16755800149523443648
   Name: "Rock Flat 01"
   PlatformAssetType: 1
@@ -35,15 +26,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15161020496069638493
-  Name: "Swirling Dust VFX"
-  PlatformAssetType: 8
-  PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_swirling_dust"
-  }
-}
-Assets {
   Id: 14916840639467030589
   Name: "Bush 02"
   PlatformAssetType: 1
@@ -53,12 +35,21 @@ Assets {
   }
 }
 Assets {
-  Id: 11515840070784317904
-  Name: "Skylight"
-  PlatformAssetType: 6
+  Id: 14030927042479968384
+  Name: "Rain Splash Volume VFX"
+  PlatformAssetType: 8
   PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_Skylight"
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_rainsplash_volume"
+  }
+}
+Assets {
+  Id: 12678555376396055008
+  Name: "Icon Health"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_Health"
   }
 }
 Assets {
@@ -71,6 +62,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9945728528270415797
+  Name: "Cone"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cone_001"
+  }
+}
+Assets {
   Id: 8971007613765797971
   Name: "Bark Oak 01"
   PlatformAssetType: 2
@@ -80,12 +80,21 @@ Assets {
   }
 }
 Assets {
-  Id: 7887238662729938253
-  Name: "Sky Dome"
-  PlatformAssetType: 6
+  Id: 8335761895691466498
+  Name: "Rain Light SFX"
+  PlatformAssetType: 7
   PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_Sky"
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_rain_light"
+  }
+}
+Assets {
+  Id: 8143830673096917146
+  Name: "Rain Medium SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_rain_medium"
   }
 }
 Assets {
@@ -98,15 +107,6 @@ Assets {
   }
 }
 Assets {
-  Id: 6288323627321324851
-  Name: "Dirt 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "dirt_001"
-  }
-}
-Assets {
   Id: 5626100723230237367
   Name: "Rock Flat 02"
   PlatformAssetType: 1
@@ -116,12 +116,30 @@ Assets {
   }
 }
 Assets {
-  Id: 1283691431651859504
-  Name: "Smoke Puff Radial VFX"
+  Id: 2852865481950306526
+  Name: "Nature Thunder Clap Boom Set 01 SFX"
+  PlatformAssetType: 10
+  PrimaryAsset {
+    AssetType: "AudioBlueprintAssetRef"
+    AssetId: "sfxabp_thunder_ref"
+  }
+}
+Assets {
+  Id: 2794624712506442034
+  Name: "Rain Volume VFX"
   PlatformAssetType: 8
   PrimaryAsset {
     AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_smoke_puff_radial"
+    AssetId: "fxbp_rain_volume_vfx"
+  }
+}
+Assets {
+  Id: 1577392771394842713
+  Name: "Teardrop - Truncated"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_truncated_teardrop_001"
   }
 }
 Assets {
