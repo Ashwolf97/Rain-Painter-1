@@ -1,23 +1,39 @@
 ﻿Name: "Mist"
+<<<<<<< HEAD
 RootId: 15662348028107207750
+=======
+RootId: 16250030611909287701
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
 Objects {
   Id: 14531006676431060037
   Name: "Smoke Puff Radial VFX"
   Transform {
     Location {
+<<<<<<< HEAD
       X: -88.8888855
+=======
+      X: -88.8888931
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
       Y: 70
       Z: -68
     }
     Rotation {
     }
     Scale {
+<<<<<<< HEAD
       X: 0.99999994
+=======
+      X: 1
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
       Y: 1
       Z: 1
     }
   }
+<<<<<<< HEAD
   ParentId: 15662348028107207750
+=======
+  ParentId: 16250030611909287701
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
   UnregisteredParameters {
     Overrides {
       Name: "bp:Burst"
@@ -55,19 +71,31 @@ Objects {
   Name: "Smoke Puff Radial VFX"
   Transform {
     Location {
+<<<<<<< HEAD
       X: 47.6190453
+=======
+      X: 47.6190491
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
       Y: 145
       Z: -144
     }
     Rotation {
     }
     Scale {
+<<<<<<< HEAD
       X: 0.99999994
+=======
+      X: 1
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
       Y: 1
       Z: 1
     }
   }
+<<<<<<< HEAD
   ParentId: 15662348028107207750
+=======
+  ParentId: 16250030611909287701
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
   UnregisteredParameters {
     Overrides {
       Name: "bp:Burst"
@@ -104,19 +132,31 @@ Objects {
   Name: "Smoke Puff Radial VFX"
   Transform {
     Location {
+<<<<<<< HEAD
       X: -107.936501
+=======
+      X: -107.936508
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
       Y: 145
       Z: -144
     }
     Rotation {
     }
     Scale {
+<<<<<<< HEAD
       X: 0.99999994
+=======
+      X: 1
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
       Y: 1
       Z: 1
     }
   }
+<<<<<<< HEAD
   ParentId: 15662348028107207750
+=======
+  ParentId: 16250030611909287701
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
   UnregisteredParameters {
     Overrides {
       Name: "bp:Burst"
@@ -153,19 +193,31 @@ Objects {
   Name: "Smoke Puff Radial VFX"
   Transform {
     Location {
+<<<<<<< HEAD
       X: -25.3968239
+=======
+      X: -25.3968258
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
       Y: -20
       Z: -156
     }
     Rotation {
     }
     Scale {
+<<<<<<< HEAD
       X: 0.99999994
+=======
+      X: 1
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
       Y: 1
       Z: 1
     }
   }
+<<<<<<< HEAD
   ParentId: 15662348028107207750
+=======
+  ParentId: 16250030611909287701
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
   UnregisteredParameters {
     Overrides {
       Name: "bp:Burst"
@@ -202,19 +254,31 @@ Objects {
   Name: "Smoke Puff Radial VFX"
   Transform {
     Location {
+<<<<<<< HEAD
       X: -22.2222214
+=======
+      X: -22.2222233
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
       Y: 85
       Z: -28
     }
     Rotation {
     }
     Scale {
+<<<<<<< HEAD
       X: 0.99999994
+=======
+      X: 1
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
       Y: 1
       Z: 1
     }
   }
+<<<<<<< HEAD
   ParentId: 15662348028107207750
+=======
+  ParentId: 16250030611909287701
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
   UnregisteredParameters {
     Overrides {
       Name: "bp:Burst"
@@ -252,19 +316,31 @@ Objects {
   Name: "Smoke Puff Radial VFX"
   Transform {
     Location {
+<<<<<<< HEAD
       X: -22.2222214
+=======
+      X: -22.2222233
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
       Y: 225
       Z: -28
     }
     Rotation {
     }
     Scale {
+<<<<<<< HEAD
       X: 0.99999994
+=======
+      X: 1
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
       Y: 1
       Z: 1
     }
   }
+<<<<<<< HEAD
   ParentId: 15662348028107207750
+=======
+  ParentId: 16250030611909287701
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
   UnregisteredParameters {
     Overrides {
       Name: "bp:Burst"
@@ -302,19 +378,31 @@ Objects {
   Name: "Smoke Puff Radial VFX"
   Transform {
     Location {
+<<<<<<< HEAD
       X: 47.6190453
+=======
+      X: 47.6190491
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
       Y: 225
       Z: 8
     }
     Rotation {
     }
     Scale {
+<<<<<<< HEAD
       X: 0.99999994
+=======
+      X: 1
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
       Y: 1
       Z: 1
     }
   }
+<<<<<<< HEAD
   ParentId: 15662348028107207750
+=======
+  ParentId: 16250030611909287701
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
   UnregisteredParameters {
     Overrides {
       Name: "bp:Burst"
@@ -352,18 +440,30 @@ Objects {
   Name: "Smoke Puff Radial VFX"
   Transform {
     Location {
+<<<<<<< HEAD
       X: -6.34920597
+=======
+      X: -6.34920692
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
       Z: -28
     }
     Rotation {
     }
     Scale {
+<<<<<<< HEAD
       X: 0.99999994
+=======
+      X: 1
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
       Y: 1
       Z: 1
     }
   }
+<<<<<<< HEAD
   ParentId: 15662348028107207750
+=======
+  ParentId: 16250030611909287701
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
   UnregisteredParameters {
     Overrides {
       Name: "bp:Burst"
@@ -408,12 +508,20 @@ Objects {
     Rotation {
     }
     Scale {
+<<<<<<< HEAD
       X: 0.99999994
+=======
+      X: 1
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
       Y: 1
       Z: 1
     }
   }
+<<<<<<< HEAD
   ParentId: 15662348028107207750
+=======
+  ParentId: 16250030611909287701
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
   UnregisteredParameters {
     Overrides {
       Name: "bp:Burst"
@@ -458,12 +566,20 @@ Objects {
     Rotation {
     }
     Scale {
+<<<<<<< HEAD
       X: 0.99999994
+=======
+      X: 1
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
       Y: 1
       Z: 1
     }
   }
+<<<<<<< HEAD
   ParentId: 15662348028107207750
+=======
+  ParentId: 16250030611909287701
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
   UnregisteredParameters {
     Overrides {
       Name: "bp:Burst"
@@ -501,19 +617,31 @@ Objects {
   Name: "Smoke Puff Radial VFX"
   Transform {
     Location {
+<<<<<<< HEAD
       X: -101.587296
+=======
+      X: -101.587303
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
       Y: 35
       Z: -76
     }
     Rotation {
     }
     Scale {
+<<<<<<< HEAD
       X: 0.99999994
+=======
+      X: 1
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
       Y: 1
       Z: 1
     }
   }
+<<<<<<< HEAD
   ParentId: 15662348028107207750
+=======
+  ParentId: 16250030611909287701
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
   UnregisteredParameters {
     Overrides {
       Name: "bp:Burst"
@@ -551,19 +679,31 @@ Objects {
   Name: "Smoke Puff Radial VFX"
   Transform {
     Location {
+<<<<<<< HEAD
       X: -25.3968239
+=======
+      X: -25.3968258
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
       Y: 290
       Z: -156
     }
     Rotation {
     }
     Scale {
+<<<<<<< HEAD
       X: 0.99999994
+=======
+      X: 1
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
       Y: 1
       Z: 1
     }
   }
+<<<<<<< HEAD
   ParentId: 15662348028107207750
+=======
+  ParentId: 16250030611909287701
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
   UnregisteredParameters {
     Overrides {
       Name: "bp:Burst"
@@ -600,19 +740,31 @@ Objects {
   Name: "Smoke Puff Radial VFX"
   Transform {
     Location {
+<<<<<<< HEAD
       X: 9.52380943
+=======
+      X: 9.52381
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
       Y: 30
       Z: -168
     }
     Rotation {
     }
     Scale {
+<<<<<<< HEAD
       X: 0.99999994
+=======
+      X: 1
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
       Y: 1
       Z: 1
     }
   }
+<<<<<<< HEAD
   ParentId: 15662348028107207750
+=======
+  ParentId: 16250030611909287701
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
   UnregisteredParameters {
     Overrides {
       Name: "bp:Burst"
@@ -649,19 +801,31 @@ Objects {
   Name: "Smoke Puff Radial VFX"
   Transform {
     Location {
+<<<<<<< HEAD
       X: 38.0952377
+=======
+      X: 38.0952415
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
       Y: 145
       Z: -56
     }
     Rotation {
     }
     Scale {
+<<<<<<< HEAD
       X: 0.99999994
+=======
+      X: 1
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
       Y: 1
       Z: 1
     }
   }
+<<<<<<< HEAD
   ParentId: 15662348028107207750
+=======
+  ParentId: 16250030611909287701
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
   UnregisteredParameters {
     Overrides {
       Name: "bp:Burst"
@@ -699,19 +863,31 @@ Objects {
   Name: "Smoke Puff Radial VFX"
   Transform {
     Location {
+<<<<<<< HEAD
       X: -9.52380943
+=======
+      X: -9.52381
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
       Y: 325
       Z: -28
     }
     Rotation {
     }
     Scale {
+<<<<<<< HEAD
       X: 0.99999994
+=======
+      X: 1
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
       Y: 1
       Z: 1
     }
   }
+<<<<<<< HEAD
   ParentId: 15662348028107207750
+=======
+  ParentId: 16250030611909287701
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
   UnregisteredParameters {
     Overrides {
       Name: "bp:Burst"
@@ -750,8 +926,13 @@ Objects {
   Transform {
     Location {
       X: -53.9682541
+<<<<<<< HEAD
       Y: 190
       Z: -108
+=======
+      Y: 189.999985
+      Z: -107.999985
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
     }
     Rotation {
     }
@@ -759,7 +940,11 @@ Objects {
       X: -0.571428537
     }
   }
+<<<<<<< HEAD
   ParentId: 15662348028107207750
+=======
+  ParentId: 16250030611909287701
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
   UnregisteredParameters {
     Overrides {
       Name: "bp:Debris Density"
@@ -809,8 +994,13 @@ Objects {
   Transform {
     Location {
       X: -50.7936516
+<<<<<<< HEAD
       Y: 55
       Z: -104
+=======
+      Y: 54.9999962
+      Z: -103.999992
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
     }
     Rotation {
     }
@@ -818,7 +1008,11 @@ Objects {
       X: -0.571428537
     }
   }
+<<<<<<< HEAD
   ParentId: 15662348028107207750
+=======
+  ParentId: 16250030611909287701
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
   UnregisteredParameters {
     Overrides {
       Name: "bp:Debris Density"
@@ -867,9 +1061,15 @@ Objects {
   Name: "Swirling Dust VFX"
   Transform {
     Location {
+<<<<<<< HEAD
       X: -12.69841
       Y: 90
       Z: -96
+=======
+      X: -12.6984062
+      Y: 89.9999924
+      Z: -95.9999924
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
     }
     Rotation {
     }
@@ -877,7 +1077,11 @@ Objects {
       X: -0.571428537
     }
   }
+<<<<<<< HEAD
   ParentId: 15662348028107207750
+=======
+  ParentId: 16250030611909287701
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
   UnregisteredParameters {
     Overrides {
       Name: "bp:Debris Density"
@@ -927,8 +1131,13 @@ Objects {
   Transform {
     Location {
       X: -28.5714264
+<<<<<<< HEAD
       Y: 175
       Z: -100
+=======
+      Y: 174.999985
+      Z: -99.9999924
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
     }
     Rotation {
     }
@@ -936,7 +1145,11 @@ Objects {
       X: -0.571428537
     }
   }
+<<<<<<< HEAD
   ParentId: 15662348028107207750
+=======
+  ParentId: 16250030611909287701
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
   UnregisteredParameters {
     Overrides {
       Name: "bp:Debris Density"
@@ -985,9 +1198,15 @@ Objects {
   Name: "Swirling Dust VFX"
   Transform {
     Location {
+<<<<<<< HEAD
       X: 6.34920883
       Y: 325
       Z: -180
+=======
+      X: 6.34921265
+      Y: 324.999969
+      Z: -179.999985
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
     }
     Rotation {
     }
@@ -995,7 +1214,11 @@ Objects {
       X: -0.571428537
     }
   }
+<<<<<<< HEAD
   ParentId: 15662348028107207750
+=======
+  ParentId: 16250030611909287701
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
   UnregisteredParameters {
     Overrides {
       Name: "bp:Debris Density"
@@ -1044,9 +1267,15 @@ Objects {
   Name: "Swirling Dust VFX"
   Transform {
     Location {
+<<<<<<< HEAD
       X: -81038.1
       Y: 265
       Z: -172
+=======
+      X: -81038.1094
+      Y: 264.999969
+      Z: -171.999985
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
     }
     Rotation {
     }
@@ -1054,7 +1283,11 @@ Objects {
       X: -0.571428537
     }
   }
+<<<<<<< HEAD
   ParentId: 15662348028107207750
+=======
+  ParentId: 16250030611909287701
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
   UnregisteredParameters {
     Overrides {
       Name: "bp:Debris Density"
@@ -1104,8 +1337,13 @@ Objects {
   Transform {
     Location {
       X: 13847.6191
+<<<<<<< HEAD
       Y: 265
       Z: -172
+=======
+      Y: 264.999969
+      Z: -171.999985
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
     }
     Rotation {
     }
@@ -1113,7 +1351,11 @@ Objects {
       X: -0.571428537
     }
   }
+<<<<<<< HEAD
   ParentId: 15662348028107207750
+=======
+  ParentId: 16250030611909287701
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
   UnregisteredParameters {
     Overrides {
       Name: "bp:Debris Density"
@@ -1163,8 +1405,13 @@ Objects {
   Transform {
     Location {
       X: -38.0952377
+<<<<<<< HEAD
       Y: 265
       Z: -172
+=======
+      Y: 264.999969
+      Z: -171.999985
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
     }
     Rotation {
     }
@@ -1172,7 +1419,11 @@ Objects {
       X: -0.571428537
     }
   }
+<<<<<<< HEAD
   ParentId: 15662348028107207750
+=======
+  ParentId: 16250030611909287701
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
   UnregisteredParameters {
     Overrides {
       Name: "bp:Debris Density"
@@ -1225,12 +1476,20 @@ Objects {
     Rotation {
     }
     Scale {
+<<<<<<< HEAD
       X: 0.99999994
+=======
+      X: 1
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
       Y: 1
       Z: 1
     }
   }
+<<<<<<< HEAD
   ParentId: 15662348028107207750
+=======
+  ParentId: 16250030611909287701
+>>>>>>> a9984aa6f16567451f5f7cf5685d6321cfed1715
   UnregisteredParameters {
     Overrides {
       Name: "bp:Burst"
